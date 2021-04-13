@@ -13,7 +13,7 @@ public class Generics {
     } // end method maximum
 
     public static void main(String[] args) {
-        System.out.printf("Maximum of %s, %s and %s is %s\n\n", "Peach", "Apple", "Banana", maximum("Peach", "Apple", "Banana"));
+        System.out.printf("Maximum of %s, %s and %s is %s\n\n", "Apple", "Peach", "Banana", maximum("Apple", "Peach", "Banana"));
     }
 
 }
