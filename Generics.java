@@ -13,7 +13,7 @@ public class Generics {
     } // end method maximum
 
     public static void main(String[] args) {
-        System.out.printf("Maximum of %.1f, %.1f and %.1f is %.1f\n\n", 6.6, 7.7, 8.8, maximum(6.6, 7.7, 8.8));
+        System.out.printf("Maximum of %.1f, %.1f and %.1f is %.1f\n\n", 8.8, 7.7, 6.6, maximum(8.8, 7.7, 6.6));
     }
 
 }
